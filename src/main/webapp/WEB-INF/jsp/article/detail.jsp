@@ -36,6 +36,10 @@
 	display: block;
 }
 
+.deletable a.deletable-item, .editable a.editable-item {
+	display: inline-block;
+}
+
 .editable-item {
 	display: none;
 }
