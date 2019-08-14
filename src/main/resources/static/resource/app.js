@@ -127,6 +127,7 @@ function Article__drawReply(reply) {
 	var 댓글번호 = reply.id;
 	var 회원번호 = reply.memberId;
 	var 관리자확인 = loginedMemberPermmisionLevel;
+	var 작성자 = reply.extra.writerName;
 	var 내용 = `
 	<div>
 		<div class="edit-mode-visible">
@@ -175,6 +176,7 @@ function Article__drawReply(reply) {
         <td>${댓글번호}</td>
    		<td>${등록날짜}</td>
    		<td>${내용}</td>
+   		<td>${작성자}</td>
    		<td>${비고}</td>
    	</tr>
     `;

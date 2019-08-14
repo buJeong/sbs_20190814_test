@@ -37,7 +37,7 @@ public class ArticleController {
 
 		// 게시물 가져올 때 댓글 개수도 가져오도록
 		param.put("extra__repliesCount", true);
-
+		
 		if (param.containsKey("page") == false) {
 			param.put("page", "1");
 		}
