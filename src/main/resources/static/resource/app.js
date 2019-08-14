@@ -152,8 +152,6 @@ function Article__drawReply(reply) {
 	
 	var 내용 = $내용.html();
 	
-	if ( 관리자확인 == 1 ) {
-	}
 	
 	var 비고 = `
 	<div>
